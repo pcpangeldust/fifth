@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ShowPopupWindowActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="В поле ввода вводится индефикатор журнала. При нажатии на кнопку 'Скачать PDF' появляется окно для выбора варианта загрузки: Через браузер или загрузить на устройство."
+        />
+
+    <CheckBox
+        android:id="@+id/popupState"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Больше не показывать"
+        />
+</LinearLayout>
